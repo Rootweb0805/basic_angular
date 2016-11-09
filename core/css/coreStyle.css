@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .pageWidth {
@@ -12,14 +13,35 @@
   height: 100vh;
 }
 
-.centerBox {
-  width: 25%;
+.newBox {
+  width: 20%;
+}
+
+.continueBox {
+  width: 20%;
 }
 
 .red {
-  background-color: red;
+  background-color: RebeccaPurple;
 }
 
 .translucentGrey {
   background-color: rgba(150, 150, 150, 0.5);
+}
+
+.translucentBlue {
+  background-color: rgba(0, 100, 150, 0.5);
+}
+
+.clicker {
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  background-color: SpringGreen;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 40%;
+  right: 40%;
+  border-radius: 60%;
 }

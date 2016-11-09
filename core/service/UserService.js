@@ -1,6 +1,4 @@
 angular.module('app')
-.service('UserService', [ function() {
-
-
+.service('UserService', [ function () {
 
 }])
